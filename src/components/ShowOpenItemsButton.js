@@ -5,8 +5,8 @@ export default class ShowOpenItemsButton extends React.Component {
 		return (
 			<button 
 				className="btn"
-				onClick={this.props.handleShowOnlyOpenTasks}
-			>Only open tasks</button>
+				onClick={this.props.handleShowOnlyOpenTasks}>
+				Only open tasks</button>
 		);
 	}
 }

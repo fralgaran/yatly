@@ -7,6 +7,7 @@ export default class TableRow extends React.Component {
 		let isOpen = (!this.props.isOpen) ? true : null;
 		
 		if (!this.props.isVisible) return null;
+		
 			return (									
 				<tr className="trow" index={this.props.index} data-complete={isOpen}>
 					<td className="tcell">
